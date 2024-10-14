@@ -1,0 +1,32 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-json
+        name: Check JSON files
+        exclude: ^\.vscode/
+      - id: check-yaml
+        name: Check YAML files
+      - id: end-of-file-fixer
+        name: Ensure proper file endings
+      - id: trailing-whitespace
+        name: Remove unnecessary whitespace from code
+        args: [--markdown-linebreak-ext=md]
+
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: "v9.12.0"
+    hooks:
+      - id: eslint
+        name: Lint JavaScript and TypeScript code
+        files: \.[jt]sx?$ # *.js, *.jsx, *.ts and *.tsx
+        types: [file]
+        additional_dependencies:
+          - eslint@9.12.0
+          - eslint-plugin-svelte@2.44.1
+
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v3.29.1
+    hooks:
+      - id: commitizen
+        name: Check commit messages
+        stages: [commit-msg]
