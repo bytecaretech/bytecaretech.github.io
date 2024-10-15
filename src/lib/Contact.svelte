@@ -1,9 +1,13 @@
 <script lang="ts">
-  import { contactText as text} from "$lib/texts";
+	import { contactText as text } from "$lib/texts";
 </script>
 
-<section id="contact" class="py-16 bg-white text-center px-4">
-  <h2 class="text-3xl font-bold mb-8">{text.title}</h2>
-  <p class="mb-6 max-w-2xl mx-auto text-lg">{text.description}</p>
-  <a href="mailto:contact@bytecare.com" class="bg-purple-500 text-white px-8 py-3 rounded-lg text-lg hover:bg-purple-600 transition duration-300 inline-block">{text.button}</a>
+<section id="contact" class="bg-white px-4 py-16 text-center">
+	<h2 class="mb-8 text-3xl font-bold">{text.title}</h2>
+	<p class="mx-auto mb-6 max-w-2xl text-lg">{text.description}</p>
+	<a
+		href="mailto:contact@bytecare.com"
+		class="inline-block rounded-lg bg-purple-500 px-8 py-3 text-lg text-white transition duration-300 hover:bg-purple-600"
+		>{text.button}</a
+	>
 </section>
