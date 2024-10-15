@@ -1,2 +1,4 @@
-<h1>Imprint</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<section>
+	<h1 class="px-4 py-4 text-4xl font-bold">Imprint</h1>
+	<p class="px-4 py-4">This page is under construction.</p>
+</section>
