@@ -12,8 +12,8 @@ export interface Project {
 	description: string;
 }
 
-export interface Testimonial {
+export interface Client {
 	name: string;
-	company: string;
+	link: string;
 	text: string;
 }

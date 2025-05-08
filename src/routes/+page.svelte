@@ -1,10 +1,8 @@
 <script>
+	import About from "$lib/About.svelte";
+	import Contact from "$lib/Contact.svelte";
 	import Hero from "$lib/Hero.svelte";
 	import Services from "$lib/Services.svelte";
-	import About from "$lib/About.svelte";
-	import Projects from "$lib/Projects.svelte";
-	import Testimonials from "$lib/Testimonials.svelte";
-	import Contact from "$lib/Contact.svelte";
 </script>
 
 <svelte:head>
@@ -18,8 +16,8 @@
 <main>
 	<Hero />
 	<Services />
+	<!-- <Clients /> -->
+	<!-- <Projects /> -->
 	<About />
-	<Projects />
-	<Testimonials />
 	<Contact />
 </main>

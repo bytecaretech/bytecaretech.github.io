@@ -1,61 +1,67 @@
 export const heroText = {
 	title: "byteCare",
-	subtitle: "Empowering small businesses to unlock the power of AI.",
-	button: "Schedule a free consultation"
+	subtitle: "Empowering businesses to harness the power of AI",
+	button: "Schedule a free consultation",
+	link: "https://my.meetergo.com/slangenbach"
 };
 
 export const servicesText = {
 	title: "Our Services",
+	subtitle: "We specialize in three core areas to help our clients achieve their business goals",
 	consulting: {
 		title: "Consulting",
-		description: "Expert guidance to align technology with business goals."
+		description:
+			"Expert guidance on data strategy, AI implementation and cloud architecture, to help your business make informed decisions."
 	},
 	software: {
 		title: "Software Solutions",
-		description: "Custom software development tailored to your specific needs."
+		description:
+			"Custom, AI-powered, software development tailored to your specific needs with a focus on simplicity, scalability and performance."
 	},
 	strategy: {
-		title: "Strategy",
-		description: "Comprehensive AI strategies to drive your business forward."
+		title: "Training",
+		description:
+			"Upskill your team with hands-on workshops and training programs tailored to your organization's needs."
 	}
 };
 
 export const aboutText = {
-	title: "About byteCare",
+	title: "About the Founder",
+	subtitle: "Meet the expertise behind byteCare",
+	imgAltText: "Stefan Langenbach, founder of byteCare",
+	name: "Stefan Langenbach",
 	description:
-		"At byteCare, I'm passionate about empowering small businesses through technology. With over a decade of experience in software development and IT consulting, I founded byteCare in 2020 to provide personalized tech solutions that drive growth and efficiency.",
+		"With over 10 years of experience in data engineering, machine learning, AI and cloud architecture, Stefan founded byteCare with a mission to help businesses leverage modern technology effectively.",
 	mission:
-		"My mission is to be your trusted technology partner, understanding your unique challenges and delivering results that exceed expectations. With byteCare, you get direct access to expertise without the overhead of a large agency."
+		"Our mission is to be your trusted technology partner, understanding your unique challenges and delivering results that exceed expectations. With byteCare, you get direct access to expertise without the overhead of a large agency."
 };
 
 export const projectText = {
-	title: "Features Projects"
+	title: "Featured Projects"
 };
 
-export const testimonialsText = {
-	title: "Client Testimonials"
+export const clientsText = {
+	title: "Our Clients",
+	subtitle: "We've helped businesses like yours succeed."
 };
 
 export const contactText = {
 	title: "Contact Us",
-	description:
-		"Ready to transform your business with cutting-edge technology solutions? Get in touch for a free consultation and let's discuss how byteCare can help your business thrive.",
-	button: "Get in touch"
+	description: "Ready to transform your business with AI-powered solutions?",
+	button: "Get in touch",
+	link: "https://my.meetergo.com/slangenbach"
 };
 
 export const navText = {
 	home: "Home",
 	services: "Services",
+	// clients: "Clients",
 	about: "About",
-	projects: "Projects",
 	contact: "Contact"
 };
 
 export const footerText = {
-	title: "byteCare",
-	description: "Empowering small businesses to unlock the power of AI",
-	copyright: "&copy; 2024 byteCare UG (haftungsbeschraenkt). All rights reserved",
-	linkLinkedIn: "Connect on LinkedIn",
+	copyright: "\u00A9 2025 byteCare UG (haftungsbeschränkt) | All rights reserved",
 	linkImprint: "Imprint",
 	linkPrivacy: "Privacy Policy"
 };
