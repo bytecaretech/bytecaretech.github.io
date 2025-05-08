@@ -6,7 +6,7 @@
 <section id="clients" class="bg-accent px-4 py-8">
 	<div class="mx-auto max-w-6xl">
 		<h2 class="mb-2 text-center text-3xl font-bold">{text.title}</h2>
-		<h3 class="text-brand-black mb-8 text-center text-xl">{text.subtitle}</h3>
+		<h3 class="mb-8 text-center text-xl text-brand-black">{text.subtitle}</h3>
 
 		<div class="grid gap-8 md:grid-cols-3">
 			{#each clients as client}

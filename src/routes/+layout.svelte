@@ -13,7 +13,7 @@
 					{#each Object.entries(navText) as [key, value]}
 						<a
 							href={key === "home" ? "/" : `/#${key}`}
-							class="hover:bg-primary px-4 py-2 text-lg hover:rounded-md hover:text-white"
+							class="px-4 py-2 text-lg hover:rounded-md hover:bg-primary hover:text-white"
 							>{value}</a
 						>
 					{/each}
