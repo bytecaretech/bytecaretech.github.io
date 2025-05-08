@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from "$app/paths";
 	import { footerText, navText } from "$lib/texts";
 	import "../app.css";
 </script>
@@ -30,8 +31,8 @@
 		<div>
 			<p class="text-center text-sm text-white">
 				{footerText.copyright} |
-				<a href="/imprint"> {footerText.linkImprint}</a> |
-				<a href="/privacy">{footerText.linkPrivacy}</a>
+				<a href="{base}/imprint"> {footerText.linkImprint}</a> |
+				<a href="{base}/privacy">{footerText.linkPrivacy}</a>
 			</p>
 		</div>
 	</footer>
