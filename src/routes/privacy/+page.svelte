@@ -115,7 +115,7 @@
 		</p>
 		<p class="mb-2">
 			Telefon: +49-241-95704253<br />
-			E-Mail: <head></head>ello@bytecare.tech
+			E-Mail: hello@bytecare.tech
 		</p>
 		<p>
 			Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder
