@@ -1,6 +1,7 @@
 export const heroText = {
 	title: "byteCare",
 	subtitle: "Empowering businesses to harness the power of AI",
+	imgAltText: "byteCare logo",
 	button: "Schedule a free consultation",
 	link: "https://my.meetergo.com/slangenbach"
 };
@@ -28,7 +29,7 @@ export const servicesText = {
 export const aboutText = {
 	title: "About the Founder",
 	subtitle: "Meet the expertise behind byteCare",
-	imgAltText: "Stefan Langenbach, founder of byteCare",
+	imgAltText: "byteCare founder",
 	name: "Stefan Langenbach",
 	description:
 		"With over 10 years of experience in data engineering, machine learning, AI and cloud architecture, Stefan founded byteCare with a mission to help businesses leverage modern technology effectively.",
