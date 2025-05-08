@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from "$app/paths";
 	import { aboutText as text } from "$lib/texts";
 </script>
 
@@ -12,7 +13,7 @@
 			<!-- Founder image column -->
 			<div class="mx-auto mb-8 mt-4 md:mb-0 md:w-1/3">
 				<div class="h-64 w-64 overflow-hidden rounded-full md:h-64 md:w-64">
-					<img src="/founder.jpg" alt={text.imgAltText} class="h-full w-full object-cover" />
+					<img src="{base}/founder.jpg" alt={text.imgAltText} class="h-full w-full object-cover" />
 				</div>
 			</div>
 
