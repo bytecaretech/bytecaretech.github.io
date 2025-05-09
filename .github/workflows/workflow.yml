@@ -11,8 +11,7 @@ on:
 jobs:
   setup:
     runs-on: ubuntu-latest
-    outputs:
-      cache-hit: ${{ steps.npm-cache.outputs.cache-hit }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,20 +22,27 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
 
-      - name: Cache dependencies
-        id: npm-cache
+      - name: Cache node dependencies
+        id: node-cache
         uses: actions/cache@v4
         with:
-          path: ~/.npm
-          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.OS }}-node-
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node
 
-      - name: Install dependencies
-        if: steps.npm-cache.outputs.cache-hit != 'true'
+      - name: Install node dependencies
         run: npm ci
 
+      - name: Cache Playwright browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-playwright-
+
       - name: Install Playwright dependencies
-        if: steps.npm-cache.outputs.cache-hit != 'true'
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps
 
   lint:
@@ -52,7 +58,16 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
 
+      - name: Restore node_modules from cache
+        id: node-cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
+
       - name: Install dependencies from cache
+        if: steps.node-cache.outputs.cache-hit != 'true'
         run: npm ci
 
       - name: Run Linters
@@ -71,8 +86,29 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
 
+      - name: Restore node_modules from cache
+        id: node-cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
+
       - name: Install dependencies from cache
+        if: steps.node-cache.outputs.cache-hit != 'true'
         run: npm ci
+
+      - name: Restore Playwright browsers from cache
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-playwright-
+
+      - name: Install Playwright dependencies if cache missed
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps
 
       - name: Run tests
         run: npm run test
@@ -99,7 +135,16 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
 
+      - name: Restore node_modules from cache
+        id: node-cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
+
       - name: Install dependencies from cache
+        if: steps.node-cache.outputs.cache-hit != 'true'
         run: npm ci
 
       - name: Build
