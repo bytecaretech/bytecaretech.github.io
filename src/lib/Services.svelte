@@ -9,7 +9,7 @@
 		<h2 class="mb-2 text-center text-3xl font-bold">{text.title}</h2>
 		<h3 class="mb-8 text-center text-xl text-brand-black">{text.subtitle}</h3>
 		<div class="mx-auto flex flex-col justify-between md:flex-row">
-			{#each services as service}
+			{#each services as service (service)}
 				<ServiceCard {service} />
 			{/each}
 		</div>

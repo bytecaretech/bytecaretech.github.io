@@ -11,7 +11,7 @@
 			<div class="flex h-16 justify-center">
 				<!-- TODO: Add logo -->
 				<div class="flex items-center">
-					{#each Object.entries(navText) as [key, value]}
+					{#each Object.entries(navText) as [key, value] (key)}
 						<a
 							href={key === "home" ? `${base}/` : `${base}/#${key}`}
 							class="px-4 py-2 text-lg hover:rounded-md hover:bg-primary hover:text-white"

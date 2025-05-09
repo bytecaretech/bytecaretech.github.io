@@ -9,7 +9,7 @@
 		<h3 class="mb-8 text-center text-xl text-brand-black">{text.subtitle}</h3>
 
 		<div class="grid gap-8 md:grid-cols-3">
-			{#each clients as client}
+			{#each clients as client (client)}
 				<!-- TODO: Extract into container -->
 				<div class="rounded-lg bg-white p-6">
 					<h3 class="mb-2 text-center text-xl font-semibold">
