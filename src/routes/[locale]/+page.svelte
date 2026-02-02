@@ -1,13 +1,10 @@
 <script>
     import { resolve } from "$app/paths";
-    import { page } from "$app/stores";
     import About from "$lib/About.svelte";
     import Contact from "$lib/Contact.svelte";
     import Hero from "$lib/Hero.svelte";
     import Services from "$lib/Services.svelte";
     import { _ } from "svelte-i18n";
-
-    $: currentLocale = $page.params.locale || "en";
 </script>
 
 <svelte:head>
