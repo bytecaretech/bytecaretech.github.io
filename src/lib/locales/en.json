@@ -1,0 +1,93 @@
+{
+  "common": {
+    "meetingLink": "https://my.meetergo.com/slangenbach"
+  },
+  "hero": {
+    "title": "byteCare",
+    "subtitle": "Empowering businesses to harness the power of AI",
+    "imgAltText": "byteCare logo",
+    "button": "Schedule a free consultation"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We specialize in three core areas to help our clients achieve their business goals",
+    "consulting": {
+      "title": "Consulting",
+      "description": "Expert guidance on data strategy, AI implementation and cloud architecture, to help your business make informed decisions."
+    },
+    "software": {
+      "title": "Software Solutions",
+      "description": "Custom, AI-powered, software development tailored to your specific needs with a focus on simplicity, scalability and performance."
+    },
+    "training": {
+      "title": "Training",
+      "description": "Upskill your team with hands-on workshops and training programs tailored to your organization's needs."
+    }
+  },
+  "about": {
+    "title": "About the Founder",
+    "subtitle": "Meet the expertise behind byteCare",
+    "imgAltText": "byteCare founder",
+    "name": "Stefan Langenbach",
+    "description": "With over 10 years of experience in data engineering, machine learning, AI and cloud architecture, Stefan founded byteCare with a mission to help businesses leverage modern technology effectively.",
+    "mission": "Our mission is to be your trusted technology partner, understanding your unique challenges and delivering results that exceed expectations. With byteCare, you get direct access to expertise without the overhead of a large agency."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "name": "Plant process optimization",
+        "description": "tbd"
+      },
+      {
+        "name": "AI-powered personal finance coach",
+        "description": "tbd"
+      },
+      {
+        "name": "MLOps Bootcamp",
+        "description": "Technology-agnostic training teaching MLOps concepts and best practices to engineers and data scientists."
+      },
+      {
+        "name": "Kubeflow for Data Scientists",
+        "description": "Built a scalable, high-performance data science platform powered by Kubeflow, MLFlow and Kubernetes."
+      }
+    ]
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "We've helped businesses like yours succeed.",
+    "items": [
+      {
+        "name": "CommaSoft AG",
+        "link": "https://comma-soft.com/",
+        "text": "byteCare transformed our operations with their innovative solutions."
+      },
+      {
+        "name": "New Digital Intelligence",
+        "link": "https://new-digital-intelligence.com/",
+        "text": "The team's expertise and dedication are unmatched. Highly recommended!"
+      },
+      {
+        "name": "AixPonic GmbH",
+        "link": "https://www.aixponic.de/",
+        "text": "byteCare's solutions have significantly improved our efficiency and productivity."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Ready to transform your business with AI-powered solutions?",
+    "button": "Get in touch"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "copyright": "© 2026 byteCare UG (haftungsbeschränkt) | All rights reserved",
+    "linkImprint": "Imprint",
+    "linkPrivacy": "Privacy Policy"
+  }
+}
