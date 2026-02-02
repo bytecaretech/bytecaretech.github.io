@@ -1,0 +1,93 @@
+{
+  "common": {
+    "meetingLink": "https://my.meetergo.com/slangenbach"
+  },
+  "hero": {
+    "title": "byteCare",
+    "subtitle": "Wir unterstützen Unternehmen dabei, die Kraft der KI zu nutzen",
+    "imgAltText": "byteCare Logo",
+    "button": "Kostenloses Erstgespräch vereinbaren"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Wir sind auf drei Kernbereiche spezialisiert, um unseren Kunden beim Erreichen ihrer Geschäftsziele zu helfen",
+    "consulting": {
+      "title": "Beratung",
+      "description": "Expertenberatung zu Datenstrategie, KI-Implementierung und Cloud-Architektur, um Ihrem Unternehmen fundierte Entscheidungen zu ermöglichen."
+    },
+    "software": {
+      "title": "Softwarelösungen",
+      "description": "Maßgeschneiderte, KI-gestützte Softwareentwicklung für Ihre spezifischen Anforderungen mit Fokus auf Einfachheit, Skalierbarkeit und Performance."
+    },
+    "training": {
+      "title": "Schulungen",
+      "description": "Qualifizieren Sie Ihr Team mit praxisnahen Workshops und Schulungsprogrammen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind."
+    }
+  },
+  "about": {
+    "title": "Über den Gründer",
+    "subtitle": "Lernen Sie die Expertise hinter byteCare kennen",
+    "imgAltText": "byteCare Gründer",
+    "name": "Stefan Langenbach",
+    "description": "Mit über 10 Jahren Erfahrung in Data Engineering, Machine Learning, KI und Cloud-Architektur gründete Stefan byteCare mit der Mission, Unternehmen bei der effektiven Nutzung moderner Technologie zu unterstützen.",
+    "mission": "Unsere Mission ist es, Ihr vertrauenswürdiger Technologiepartner zu sein, Ihre individuellen Herausforderungen zu verstehen und Ergebnisse zu liefern, die Ihre Erwartungen übertreffen. Mit byteCare erhalten Sie direkten Zugang zu Expertise ohne den Overhead einer großen Agentur."
+  },
+  "projects": {
+    "title": "Ausgewählte Projekte",
+    "items": [
+      {
+        "name": "Prozessoptimierung in der Produktion",
+        "description": "tbd"
+      },
+      {
+        "name": "KI-gestützter persönlicher Finanzcoach",
+        "description": "tbd"
+      },
+      {
+        "name": "MLOps Bootcamp",
+        "description": "Technologie-agnostisches Training zu MLOps-Konzepten und Best Practices für Ingenieure und Data Scientists."
+      },
+      {
+        "name": "Kubeflow für Data Scientists",
+        "description": "Aufbau einer skalierbaren, hochperformanten Data-Science-Plattform mit Kubeflow, MLFlow und Kubernetes."
+      }
+    ]
+  },
+  "clients": {
+    "title": "Unsere Kunden",
+    "subtitle": "Wir haben Unternehmen wie Ihrem zum Erfolg verholfen.",
+    "items": [
+      {
+        "name": "CommaSoft AG",
+        "link": "https://comma-soft.com/",
+        "text": "byteCare hat unsere Abläufe mit innovativen Lösungen transformiert."
+      },
+      {
+        "name": "Eurogard",
+        "link": "https://eurogard.de/",
+        "text": "tbd"
+      },
+      {
+        "name": "AixPonic GmbH",
+        "link": "https://www.aixponic.de/",
+        "text": "Die Lösungen von byteCare haben unsere Effizienz und Produktivität deutlich verbessert."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Bereit, Ihr Unternehmen mit KI-gestützten Lösungen zu transformieren?",
+    "button": "Kontakt aufnehmen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "copyright": "© 2026 byteCare UG (haftungsbeschränkt) | Alle Rechte vorbehalten",
+    "linkImprint": "Impressum",
+    "linkPrivacy": "Datenschutzerklärung"
+  }
+}
