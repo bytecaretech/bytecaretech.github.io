@@ -1,7 +1,11 @@
 <script lang="ts">
+    import { page } from "$app/stores";
     import { resolve } from "$app/paths";
     import { _ } from "svelte-i18n";
     import "../../app.css";
+
+    $: locale = $page.params.locale ?? "en";
+    $: localePath = resolve("/[locale]", { locale });
 </script>
 
 <!-- TODO: Add mobile navigation -->
@@ -13,7 +17,7 @@
                 <div class="flex items-center">
                     {#each ["home", "services", "about", "contact"] as key (key)}
                         <a
-                            href={key === "home" ? `${resolve("/")}` : `${resolve("/#")}${key}`}
+                            href={key === "home" ? localePath : `${localePath}#${key}`}
                             class="px-4 py-2 text-lg hover:rounded-md hover:bg-primary hover:text-white"
                             >{$_(`nav.${key}`)}</a
                         >
