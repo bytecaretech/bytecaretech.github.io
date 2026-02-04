@@ -1,8 +1,8 @@
-import type { Icon as LucidIcon } from "lucide-svelte";
+import type { CodeIcon } from "lucide-svelte";
 
 export interface ServiceItem {
     key: string;
-    icon: LucidIcon;
+    icon: typeof CodeIcon;
 }
 
 export interface Project {
