@@ -1,0 +1,93 @@
+{
+  "common": {
+    "meetingLink": "https://my.meetergo.com/slangenbach"
+  },
+  "hero": {
+    "title": "byteCare",
+    "subtitle": "Kosteneffiziente, performante und datenschutzfreundliche KI für Ihr Unternehmen",
+    "imgAltText": "byteCare Logo",
+    "button": "Kostenloses Erstgespräch vereinbaren"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Wir helfen Unternehmen bei der Einführung von KI, die kosteneffizient, performant und vollständig DSGVO-konform ist",
+    "consulting": {
+      "title": "Beratung",
+      "description": "Strategische Beratung zur KI-Einführung, Modellauswahl und Datensouveränität — für fundierte Entscheidungen mit der Sie die Hoheheit über Ihre Daten behalten und compliant bleiben."
+    },
+    "software": {
+      "title": "Softwarelösungen",
+      "description": "Maßgeschneiderte KI-Lösungen auf Basis schlanker, transparenter Modelle, die Kosten und Energieverbrauch reduzieren. Betrieb on-premise, on-edge oder in deutschen Rechenzentren — immer DSGVO-konform und datenschutzfreundlich."
+    },
+    "training": {
+      "title": "Schulungen",
+      "description": "Praxisnahe Workshops zu moderner KI und deren Betrieb — damit Sie KI-Lösungen eigenständig entwickeln und betreiben können."
+    }
+  },
+  "about": {
+    "title": "Über den Gründer",
+    "subtitle": "Lernen Sie die Expertise hinter byteCare kennen",
+    "imgAltText": "byteCare Gründer",
+    "name": "Stefan Langenbach",
+    "description": "Mit über 10 Jahren Erfahrung in Data Engineering, Machine Learning und Cloud-Architektur gründete Stefan byteCare, um Unternehmen bei der Einführung von KI zu unterstützen, die den Datenschutz respektiert und unter ihrer Kontrolle bleibt - unter Verwendung schlanker, performanter Modelle, die in Deutschland gehostet werden.",
+    "mission": "Unsere Mission ist es, KI zugänglich, performant und datenschutzfreundlich zu machen. Wir sind überzeugt davon, dass jedes Unternehmen KI-Lösungen verdient, die kosteneffizient, nachhaltig und vollständig DSGVO-konform sind — ohne die Risiken, Komplexität und Kosten großer Tech-Konzerne. Mit byteCare erhalten Sie Expertise und Lösungen, denen Sie vertrauen können."
+  },
+  "projects": {
+    "title": "Ausgewählte Projekte",
+    "items": [
+      {
+        "name": "Prozessoptimierung in der Produktion",
+        "description": "tbd"
+      },
+      {
+        "name": "KI-gestützter persönlicher Finanzcoach",
+        "description": "tbd"
+      },
+      {
+        "name": "MLOps Bootcamp",
+        "description": "Technologie-agnostisches Training zu MLOps-Konzepten und Best Practices für Ingenieure und Data Scientists."
+      },
+      {
+        "name": "Kubeflow für Data Scientists",
+        "description": "Aufbau einer skalierbaren, hochperformanten Data-Science-Plattform mit Kubeflow, MLFlow und Kubernetes."
+      }
+    ]
+  },
+  "clients": {
+    "title": "Unsere Kunden",
+    "subtitle": "Wir haben Unternehmen wie Ihrem zum Erfolg verholfen.",
+    "items": [
+      {
+        "name": "CommaSoft AG",
+        "link": "https://comma-soft.com/",
+        "text": "tbd"
+      },
+      {
+        "name": "Eurogard",
+        "link": "https://eurogard.de/",
+        "text": "tbd"
+      },
+      {
+        "name": "AixPonic GmbH",
+        "link": "https://www.aixponic.de/",
+        "text": "tbd."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Bereit für KI, die kosteneffizient, performant und datenschutzfreundlich ist?",
+    "button": "Kontakt aufnehmen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "copyright": "© 2026 byteCare UG (haftungsbeschränkt) | Alle Rechte vorbehalten",
+    "linkImprint": "Impressum",
+    "linkPrivacy": "Datenschutzerklärung"
+  }
+}

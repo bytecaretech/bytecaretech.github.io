@@ -1,0 +1,93 @@
+{
+  "common": {
+    "meetingLink": "https://my.meetergo.com/slangenbach"
+  },
+  "hero": {
+    "title": "byteCare",
+    "subtitle": "Cost-effective, performant and privacy-preserving AI for your business",
+    "imgAltText": "byteCare logo",
+    "button": "Schedule a free consultation"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We help businesses to adopt AI that is cost-effective, performant and fully GDPR-compliant",
+    "consulting": {
+      "title": "Consulting",
+      "description": "Strategic guidance on AI adoption, model selection and data sovereignty — enabling you to make informed decisions to stay in control and being compliant."
+    },
+    "software": {
+      "title": "Software Solutions",
+      "description": "Custom AI solutions built on lean, transparent models that reduce costs and energy consumption. Deploy on-premise, at the edge or in EU data centers — always GDPR-compliant and privacy-first."
+    },
+    "training": {
+      "title": "Training",
+      "description": "Hands-on workshops on modern AI and operations, tailored to your team — so you can build and operate AI solutions independently."
+    }
+  },
+  "about": {
+    "title": "About the Founder",
+    "subtitle": "Meet the expertise behind byteCare",
+    "imgAltText": "byteCare founder",
+    "name": "Stefan Langenbach",
+    "description": "With over 10 years of experience in data engineering, machine learning and cloud architecture, Stefan founded byteCare to help businesses adopt AI that respects privacy and stays under their control — using lean, performant models hosted in Europe.",
+    "mission": "Our mission is to make AI accessible, transparent and privacy-preserving. We believe every business deserves AI solutions that are cost-effective, performant and fully GDPR-compliant — without the risks, complexity or cost of big tech. With byteCare, you get direct expertise and solutions you can trust."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "name": "Plant process optimization",
+        "description": "tbd"
+      },
+      {
+        "name": "AI-powered personal finance coach",
+        "description": "tbd"
+      },
+      {
+        "name": "MLOps Bootcamp",
+        "description": "Technology-agnostic training teaching MLOps concepts and best practices to engineers and data scientists."
+      },
+      {
+        "name": "Kubeflow for Data Scientists",
+        "description": "Built a scalable, high-performance data science platform powered by Kubeflow, MLFlow and Kubernetes."
+      }
+    ]
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "We've helped businesses like yours succeed.",
+    "items": [
+      {
+        "name": "CommaSoft AG",
+        "link": "https://comma-soft.com/",
+        "text": "tbd"
+      },
+      {
+        "name": "Eurogard",
+        "link": "https://eurogard.de/",
+        "text": "tbd"
+      },
+      {
+        "name": "AixPonic GmbH",
+        "link": "https://www.aixponic.de/",
+        "text": "tbd"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Ready to adopt AI that is cost-effective, efficient and privacy-first?",
+    "button": "Get in touch"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "copyright": "© 2026 byteCare UG (haftungsbeschränkt) | All rights reserved",
+    "linkImprint": "Imprint",
+    "linkPrivacy": "Privacy Policy"
+  }
+}

@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-json
         name: Check JSON files
@@ -14,7 +14,7 @@ repos:
         args: [--markdown-linebreak-ext=md]
 
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: "v9.12.0"
+    rev: "v10.0.0-rc.2"
     hooks:
       - id: eslint
         name: Lint JavaScript and TypeScript code
@@ -25,12 +25,12 @@ repos:
           - eslint-plugin-svelte@2.44.1
 
   - repo: https://github.com/rhysd/actionlint
-    rev: v1.7.7
+    rev: v1.7.10
     hooks:
       - id: actionlint
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.29.1
+    rev: v4.12.1
     hooks:
       - id: commitizen
         name: Check commit messages

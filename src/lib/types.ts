@@ -1,10 +1,8 @@
-import type { Icon as LucidIcon } from "lucide-svelte";
-import type { ComponentType } from "svelte";
+import type { CodeIcon } from "lucide-svelte";
 
-export interface Service {
-    icon: ComponentType<LucidIcon>;
-    title: string;
-    description: string;
+export interface ServiceItem {
+    key: string;
+    icon: typeof CodeIcon;
 }
 
 export interface Project {

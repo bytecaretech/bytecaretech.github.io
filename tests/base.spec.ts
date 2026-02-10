@@ -7,9 +7,9 @@ test.describe("byteCare website", () => {
 
     test("page loads", async ({ page }) => {
         await expect(page).toHaveTitle(
-            "byteCare - Empowering small businesses to unlock the power of AI."
+            "byteCare - Empowering businesses to harness the power of AI"
         );
-        await expect(page).toHaveURL("/");
+        await expect(page).toHaveURL(/\/(en|de)/);
     });
 
     test("navigation is visible", async ({ page }) =>
