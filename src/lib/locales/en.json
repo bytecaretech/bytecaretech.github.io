@@ -4,24 +4,24 @@
   },
   "hero": {
     "title": "byteCare",
-    "subtitle": "Empowering businesses to harness the power of AI",
+    "subtitle": "Cost-effective, performant and privacy-preserving AI for your business",
     "imgAltText": "byteCare logo",
     "button": "Schedule a free consultation"
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "We specialize in three core areas to help our clients achieve their business goals",
+    "subtitle": "We help businesses to adopt AI that is cost-effective, performant and fully GDPR-compliant",
     "consulting": {
       "title": "Consulting",
-      "description": "Expert guidance on data strategy, AI implementation and cloud architecture, to help your business make informed decisions."
+      "description": "Strategic guidance on AI adoption, model selection and data sovereignty — enabling you to make informed decisions to stay in control and being compliant."
     },
     "software": {
       "title": "Software Solutions",
-      "description": "Custom, AI-powered, software development tailored to your specific needs with a focus on simplicity, scalability and performance."
+      "description": "Custom AI solutions built on lean, transparent models that reduce costs and energy consumption. Deploy on-premise, at the edge or in EU data centers — always GDPR-compliant and privacy-first."
     },
     "training": {
       "title": "Training",
-      "description": "Upskill your team with hands-on workshops and training programs tailored to your organization's needs."
+      "description": "Hands-on workshops on modern AI and operations, tailored to your team — so you can build and operate AI solutions independently."
     }
   },
   "about": {
@@ -29,8 +29,8 @@
     "subtitle": "Meet the expertise behind byteCare",
     "imgAltText": "byteCare founder",
     "name": "Stefan Langenbach",
-    "description": "With over 10 years of experience in data engineering, machine learning, AI and cloud architecture, Stefan founded byteCare with a mission to help businesses leverage modern technology effectively.",
-    "mission": "Our mission is to be your trusted technology partner, understanding your unique challenges and delivering results that exceed expectations. With byteCare, you get direct access to expertise without the overhead of a large agency."
+    "description": "With over 10 years of experience in data engineering, machine learning and cloud architecture, Stefan founded byteCare to help businesses adopt AI that respects privacy and stays under their control — using lean, performant models hosted in Europe.",
+    "mission": "Our mission is to make AI accessible, transparent and privacy-preserving. We believe every business deserves AI solutions that are cost-effective, performant and fully GDPR-compliant — without the risks, complexity or cost of big tech. With byteCare, you get direct expertise and solutions you can trust."
   },
   "projects": {
     "title": "Featured Projects",
@@ -60,23 +60,23 @@
       {
         "name": "CommaSoft AG",
         "link": "https://comma-soft.com/",
-        "text": "byteCare transformed our operations with their innovative solutions."
+        "text": "tbd"
       },
       {
-        "name": "New Digital Intelligence",
-        "link": "https://new-digital-intelligence.com/",
-        "text": "The team's expertise and dedication are unmatched. Highly recommended!"
+        "name": "Eurogard",
+        "link": "https://eurogard.de/",
+        "text": "tbd"
       },
       {
         "name": "AixPonic GmbH",
         "link": "https://www.aixponic.de/",
-        "text": "byteCare's solutions have significantly improved our efficiency and productivity."
+        "text": "tbd"
       }
     ]
   },
   "contact": {
     "title": "Contact Us",
-    "description": "Ready to transform your business with AI-powered solutions?",
+    "description": "Ready to adopt AI that is cost-effective, efficient and privacy-first?",
     "button": "Get in touch"
   },
   "nav": {

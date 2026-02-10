@@ -4,24 +4,24 @@
   },
   "hero": {
     "title": "byteCare",
-    "subtitle": "Wir unterstützen Unternehmen dabei, die Kraft der KI zu nutzen",
+    "subtitle": "Kosteneffiziente, performante und datenschutzfreundliche KI für Ihr Unternehmen",
     "imgAltText": "byteCare Logo",
     "button": "Kostenloses Erstgespräch vereinbaren"
   },
   "services": {
     "title": "Unsere Leistungen",
-    "subtitle": "Wir sind auf drei Kernbereiche spezialisiert, um unseren Kunden beim Erreichen ihrer Geschäftsziele zu helfen",
+    "subtitle": "Wir helfen Unternehmen bei der Einführung von KI, die kosteneffizient, performant und vollständig DSGVO-konform ist",
     "consulting": {
       "title": "Beratung",
-      "description": "Expertenberatung zu Datenstrategie, KI-Implementierung und Cloud-Architektur, um Ihrem Unternehmen fundierte Entscheidungen zu ermöglichen."
+      "description": "Strategische Beratung zur KI-Einführung, Modellauswahl und Datensouveränität — für fundierte Entscheidungen mit der Sie die Hoheheit über Ihre Daten behalten und compliant bleiben."
     },
     "software": {
       "title": "Softwarelösungen",
-      "description": "Maßgeschneiderte, KI-gestützte Softwareentwicklung für Ihre spezifischen Anforderungen mit Fokus auf Einfachheit, Skalierbarkeit und Performance."
+      "description": "Maßgeschneiderte KI-Lösungen auf Basis schlanker, transparenter Modelle, die Kosten und Energieverbrauch reduzieren. Betrieb on-premise, on-edge oder in deutschen Rechenzentren — immer DSGVO-konform und datenschutzfreundlich."
     },
     "training": {
       "title": "Schulungen",
-      "description": "Qualifizieren Sie Ihr Team mit praxisnahen Workshops und Schulungsprogrammen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind."
+      "description": "Praxisnahe Workshops zu moderner KI und deren Betrieb — damit Sie KI-Lösungen eigenständig entwickeln und betreiben können."
     }
   },
   "about": {
@@ -29,8 +29,8 @@
     "subtitle": "Lernen Sie die Expertise hinter byteCare kennen",
     "imgAltText": "byteCare Gründer",
     "name": "Stefan Langenbach",
-    "description": "Mit über 10 Jahren Erfahrung in Data Engineering, Machine Learning, KI und Cloud-Architektur gründete Stefan byteCare mit der Mission, Unternehmen bei der effektiven Nutzung moderner Technologie zu unterstützen.",
-    "mission": "Unsere Mission ist es, Ihr vertrauenswürdiger Technologiepartner zu sein, Ihre individuellen Herausforderungen zu verstehen und Ergebnisse zu liefern, die Ihre Erwartungen übertreffen. Mit byteCare erhalten Sie direkten Zugang zu Expertise ohne den Overhead einer großen Agentur."
+    "description": "Mit über 10 Jahren Erfahrung in Data Engineering, Machine Learning und Cloud-Architektur gründete Stefan byteCare, um Unternehmen bei der Einführung von KI zu unterstützen, die den Datenschutz respektiert und unter ihrer Kontrolle bleibt - unter Verwendung schlanker, performanter Modelle, die in Deutschland gehostet werden.",
+    "mission": "Unsere Mission ist es, KI zugänglich, performant und datenschutzfreundlich zu machen. Wir sind überzeugt davon, dass jedes Unternehmen KI-Lösungen verdient, die kosteneffizient, nachhaltig und vollständig DSGVO-konform sind — ohne die Risiken, Komplexität und Kosten großer Tech-Konzerne. Mit byteCare erhalten Sie Expertise und Lösungen, denen Sie vertrauen können."
   },
   "projects": {
     "title": "Ausgewählte Projekte",
@@ -60,7 +60,7 @@
       {
         "name": "CommaSoft AG",
         "link": "https://comma-soft.com/",
-        "text": "byteCare hat unsere Abläufe mit innovativen Lösungen transformiert."
+        "text": "tbd"
       },
       {
         "name": "Eurogard",
@@ -70,13 +70,13 @@
       {
         "name": "AixPonic GmbH",
         "link": "https://www.aixponic.de/",
-        "text": "Die Lösungen von byteCare haben unsere Effizienz und Produktivität deutlich verbessert."
+        "text": "tbd."
       }
     ]
   },
   "contact": {
     "title": "Kontakt",
-    "description": "Bereit, Ihr Unternehmen mit KI-gestützten Lösungen zu transformieren?",
+    "description": "Bereit für KI, die kosteneffizient, performant und datenschutzfreundlich ist?",
     "button": "Kontakt aufnehmen"
   },
   "nav": {
