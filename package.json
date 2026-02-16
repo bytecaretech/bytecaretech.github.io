@@ -23,7 +23,7 @@
     "@types/node": "^24.10.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.0.0",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-svelte": "^3.5.1",
     "globals": "^16.1.0",
     "lucide-svelte": "^0.525.0",
