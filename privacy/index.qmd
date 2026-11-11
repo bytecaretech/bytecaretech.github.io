@@ -125,14 +125,4 @@ Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertra
 
 Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
 
-## 4. Plugins und Tools
-
-### Bunny Fonts
-
-Diese Website nutzt zur einheitlichen Darstellung von Schriftarten so genannte Bunny Fonts, die von der BunnyWay d.o.o. (Slowenien) bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Schriftarten von `fonts.bunny.net`. Dabei wird Ihre IP-Adresse an Bunny übermittelt. Nach Angaben des Anbieters wird Ihre IP-Adresse dabei weder protokolliert noch gespeichert.
-
-Die Nutzung von Bunny Fonts erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an der einheitlichen Darstellung des Schriftbildes auf unserer Website.
-
-Weitere Informationen finden Sie in der Datenschutzerklärung von Bunny: [https://bunny.net/privacy](https://bunny.net/privacy).
-
 Quelle: [e-recht24.de](https://www.e-recht24.de)
