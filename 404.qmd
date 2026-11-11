@@ -1,0 +1,14 @@
+---
+title: Page not found / Seite nicht gefunden
+pagetitle: Page not found / Seite nicht gefunden – byteCare
+lang: en
+sitemap: false
+---
+
+::: {lang="en"}
+The page you are looking for doesn't exist. Go to the [English home page](/en/).
+:::
+
+::: {lang="de"}
+Die gesuchte Seite gibt es nicht. Zur [deutschen Startseite](/de/).
+:::

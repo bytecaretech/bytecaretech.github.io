@@ -1,0 +1,31 @@
+---
+title: Impressum
+pagetitle: Impressum – byteCare
+lang: de
+---
+
+byteCare UG (haftungsbeschränkt)\
+Am Hangeweiher 3\
+52074 Aachen
+
+Handelsregister: HRB 27913\
+Registergericht: Amtsgericht Aachen
+
+**Vertreten durch:**\
+Stefan Langenbach
+
+## Kontakt
+
+Telefon: +49-241-95704253\
+E-Mail: hello@bytecare.tech
+
+## Umsatzsteuer-ID
+
+Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\
+DE369538465
+
+## Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle
+
+Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+Quelle: [e-recht24.de](https://www.e-recht24.de)

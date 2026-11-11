@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>byteCare</title>
+    <link rel="canonical" href="https://www.bytecare.tech/en/">
+    <link rel="alternate" hreflang="en" href="https://www.bytecare.tech/en/">
+    <link rel="alternate" hreflang="de" href="https://www.bytecare.tech/de/">
+    <link rel="alternate" hreflang="x-default" href="https://www.bytecare.tech/en/">
+    <script>
+      // Send visitors to /de/ or /en/ by browser language; English is the default.
+      var languages = navigator.languages || [navigator.language];
+      var locale = "en";
+      for (var i = 0; i < languages.length; i++) {
+        var code = (languages[i] || "").toLowerCase().split("-")[0];
+        if (code === "de" || code === "en") {
+          locale = code;
+          break;
+        }
+      }
+      window.location.replace("/" + locale + "/");
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/en/">
+    </noscript>
+  </head>
+  <body>
+    <p><a href="/en/">English</a> | <a href="/de/">Deutsch</a></p>
+  </body>
+</html>
