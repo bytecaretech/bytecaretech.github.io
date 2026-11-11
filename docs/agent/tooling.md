@@ -25,7 +25,7 @@ Quarto skips every file under a hidden directory, including when the project its
 - Quarto's Bootstrap build ships the CSS grid (`.grid`, `.g-col-12`, `.g-col-md-4`), not the flexbox grid: `.row`/`.col-*` don't lay out.
 - In `theme.scss`, `scss:defaults` is read before the brand's, so brand variables (`$brand-purple`) only work in `scss:rules`; defaults use the brand's hex values.
 - The brand defines dark colours, so Quarto always builds a dark theme and a toggle. The site is light mode only: light is the default and `theme.scss` hides the toggle.
-- Brand fonts load from Bunny Fonts (`fonts.bunny.net`), whose CSS can point at `cdn.jsdelivr.net`. Every third-party request the site makes needs a matching section in `privacy/index.qmd`.
+- Brand fonts load from Bunny Fonts (`fonts.bunny.net`), whose CSS points the font files at `cdn.jsdelivr.net`. Both are disclosed in `privacy/index.qmd`; any other third-party request needs its own section there.
 
 ## Brand updates
 

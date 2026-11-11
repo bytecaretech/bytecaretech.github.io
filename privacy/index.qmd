@@ -125,4 +125,16 @@ Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertra
 
 Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
 
+## 4. Plugins und Tools
+
+### Schriftarten (Bunny Fonts und jsDelivr)
+
+Diese Website nutzt zur einheitlichen Darstellung von Schriftarten so genannte Bunny Fonts. Anbieter ist die BunnyWay d.o.o., Dunajska cesta 165, 1000 Ljubljana, Slowenien. Beim Aufruf einer Seite lädt Ihr Browser die Schriftart-Definitionen von `fonts.bunny.net`. Diese verweisen auf Schriftdateien, die über `cdn.jsdelivr.net` ausgeliefert werden. Ihr Browser baut dabei eine Verbindung zu beiden Diensten auf und übermittelt Ihre IP-Adresse.
+
+Bunny gibt an, bei Bunny Fonts keine Daten oder Protokolle (Logs) zu erheben und keine Daten an Dritte weiterzugeben. Weitere Informationen finden Sie unter [https://fonts.bunny.net/about](https://fonts.bunny.net/about) und in der Datenschutzerklärung von Bunny: [https://bunny.net/privacy/](https://bunny.net/privacy/).
+
+`cdn.jsdelivr.net` wird von der Volentio JSD Limited betrieben, einem in England und Wales registrierten Unternehmen. jsDelivr liefert die Dateien über die Netzwerke externer CDN-Anbieter aus, nach eigenen Angaben Cloudflare, Fastly, Bunny und GCore. Darunter sind Unternehmen mit Sitz in den USA (Cloudflare und Fastly). Diese Anbieter erhalten Ihre IP-Adresse und weitere von Ihrem Browser gesendete Informationen (z.&nbsp;B. Browsertyp, Referrer-Domain, Zeitpunkt des Abrufs). jsDelivr gibt an, diese Daten für Statistik- und Sicherheitszwecke zu verwenden und keine einzelnen Nutzer zu verfolgen. Eine Übermittlung von Daten in Drittstaaten, insbesondere in die USA, kann dabei nicht ausgeschlossen werden. Weitere Informationen finden Sie in der Datenschutzerklärung von jsDelivr: [https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net).
+
+Die Nutzung von Bunny Fonts und jsDelivr erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an der einheitlichen Darstellung des Schriftbildes auf unserer Website.
+
 Quelle: [e-recht24.de](https://www.e-recht24.de)
