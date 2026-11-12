@@ -1,0 +1,50 @@
+project:
+  type: website
+  # Render only Quarto pages, not the Markdown docs (README, AGENTS, docs/).
+  render:
+    - "*.qmd"
+  resources:
+    - CNAME
+    - index.html
+    - assets/favicon.ico
+    - assets/site.webmanifest
+    - assets/android-chrome-192x192.png
+    - assets/android-chrome-512x512.png
+    - assets/apple-touch-icon.png
+    - assets/favicon-16x16.png
+
+website:
+  site-url: https://www.bytecare.tech
+  favicon: assets/favicon-32x32.png
+  search: false
+  page-navigation: false
+  navbar:
+    title: false
+    logo:
+      path: _extensions/bytecaretech/bytecare/logo-medium.png
+      alt: byteCare home
+    logo-href: /
+    collapse: false
+    right:
+      - text: EN
+        href: en/index.qmd
+        aria-label: English
+      - text: DE
+        href: de/index.qmd
+        aria-label: Deutsch
+  page-footer:
+    center: >-
+      © 2026 byteCare UG (haftungsbeschränkt) ·
+      [Impressum](/imprint/) · [Datenschutz](/privacy/)
+
+format:
+  html:
+    # The brand comes from the bytecare-brand extension (_extensions/);
+    # theme.scss holds the site-only overrides.
+    theme: [brand, theme.scss]
+    anchor-sections: false
+    include-in-header:
+      text: |
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+        <link rel="manifest" href="/assets/site.webmanifest">

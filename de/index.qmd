@@ -1,0 +1,93 @@
+---
+pagetitle: byteCare - Kosteneffiziente, performante und datenschutzfreundliche KI für Ihr Unternehmen
+description: Kosteneffiziente, performante und datenschutzfreundliche KI für Ihr Unternehmen
+lang: de
+page-layout: custom
+include-in-header:
+  text: |
+    <link rel="alternate" hreflang="en" href="https://www.bytecare.tech/en/">
+    <link rel="alternate" hreflang="de" href="https://www.bytecare.tech/de/">
+    <link rel="alternate" hreflang="x-default" href="https://www.bytecare.tech/en/">
+---
+
+::: {#hero .home-section}
+![](../_extensions/bytecaretech/bytecare/logo-medium.png){.hero-logo fig-alt="byteCare Logo"}
+
+# byteCare
+
+::: hero-subtitle
+Kosteneffiziente, performante und datenschutzfreundliche KI für Ihr Unternehmen
+:::
+
+[Kostenloses Erstgespräch vereinbaren](https://my.meetergo.com/slangenbach){.btn .btn-primary .btn-lg target="_blank" rel="noopener"}
+:::
+
+::: {#services .home-section .container}
+## Unsere Leistungen
+
+::: section-subtitle
+Wir helfen Unternehmen bei der Einführung von KI, die kosteneffizient, performant und vollständig DSGVO-konform ist
+:::
+
+::: {.grid .text-center}
+::: {.g-col-12 .g-col-md-4}
+::: service-card
+[]{.bi .bi-lightbulb aria-hidden="true"}
+
+### Beratung
+
+Strategische Beratung zur KI-Einführung, Modellauswahl und Datensouveränität — für fundierte Entscheidungen mit der Sie die Hoheheit über Ihre Daten behalten und compliant bleiben.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: service-card
+[]{.bi .bi-code-slash aria-hidden="true"}
+
+### Softwarelösungen
+
+Maßgeschneiderte KI-Lösungen auf Basis schlanker, transparenter Modelle, die Kosten und Energieverbrauch reduzieren. Betrieb on-premise, on-edge oder in deutschen Rechenzentren — immer DSGVO-konform und datenschutzfreundlich.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: service-card
+[]{.bi .bi-mortarboard aria-hidden="true"}
+
+### Schulungen
+
+Praxisnahe Workshops zu moderner KI und deren Betrieb — damit Sie KI-Lösungen eigenständig entwickeln und betreiben können.
+:::
+:::
+:::
+:::
+
+::: {#about .home-section .container}
+## Über den Gründer
+
+::: section-subtitle
+Lernen Sie die Expertise hinter byteCare kennen
+:::
+
+::: {.grid .align-items-center}
+::: {.g-col-12 .g-col-md-4 .text-center}
+![](../assets/founder.jpg){.founder-photo fig-alt="byteCare Gründer"}
+:::
+
+::: {.g-col-12 .g-col-md-8 .about-text}
+[Stefan Langenbach]{.founder-name}
+
+Mit über 10 Jahren Erfahrung in Data Engineering, Machine Learning und Cloud-Architektur gründete Stefan byteCare, um Unternehmen bei der Einführung von KI zu unterstützen, die den Datenschutz respektiert und unter ihrer Kontrolle bleibt - unter Verwendung schlanker, performanter Modelle, die in Deutschland gehostet werden.
+
+Unsere Mission ist es, KI zugänglich, performant und datenschutzfreundlich zu machen. Wir sind überzeugt davon, dass jedes Unternehmen KI-Lösungen verdient, die kosteneffizient, nachhaltig und vollständig DSGVO-konform sind — ohne die Risiken, Komplexität und Kosten großer Tech-Konzerne. Mit byteCare erhalten Sie Expertise und Lösungen, denen Sie vertrauen können.
+:::
+:::
+:::
+
+::: {#contact .home-section}
+## Kontakt
+
+Bereit für KI, die kosteneffizient, performant und datenschutzfreundlich ist?
+
+[Kontakt aufnehmen](https://my.meetergo.com/slangenbach){.btn .btn-primary .btn-lg target="_blank" rel="noopener"}
+:::

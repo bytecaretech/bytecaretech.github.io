@@ -1,0 +1,170 @@
+/*-- scss:defaults --*/
+
+// Site-only overrides on top of the byteCare brand extension.
+// The brand's light background is grey; the website uses a white page
+// and keeps grey for the service cards and the contact section.
+$body-bg: #ffffff;
+
+// Sass defaults are read before the brand's, so brand variables aren't
+// available here yet; these hex values are the brand palette's.
+$navbar-bg: #ffffff;
+$navbar-fg: #333333; // brand black
+$navbar-hl: #6755d3; // brand purple
+
+$footer-bg: #20204c; // brand deep-blue
+$footer-fg: #ffffff;
+
+/*-- scss:rules --*/
+
+// Light mode only. The brand defines dark colours, so Quarto always builds
+// a dark theme and a toggle; light is the default, and the toggle is hidden.
+:root {
+  color-scheme: light;
+}
+
+.quarto-color-scheme-toggle {
+  display: none !important;
+}
+
+.navbar-brand .navbar-logo {
+  max-height: 2.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#quarto-header .navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+// "EN | DE" switcher: a divider between the two navbar links.
+#quarto-header .navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+#quarto-header .navbar-nav .nav-item + .nav-item::before {
+  content: "|";
+  color: $brand-black;
+}
+
+#quarto-header .navbar-nav {
+  flex-direction: row;
+  align-items: center;
+}
+
+#quarto-header .navbar-nav .nav-link {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+// The footer only uses its centre slot; let it span the full width.
+.nav-footer {
+  .nav-footer-left,
+  .nav-footer-right {
+    display: none;
+  }
+
+  .nav-footer-center {
+    flex: 1 1 100%;
+  }
+
+  a,
+  a:hover {
+    color: #ffffff;
+  }
+}
+
+// Home page sections.
+.home-section {
+  padding: 3rem 1rem;
+  text-align: center;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    border-bottom: none;
+  }
+
+  .section-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+#hero {
+  padding-top: 4rem;
+
+  .hero-logo {
+    width: 9rem;
+    height: 9rem;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+    max-width: 42rem;
+    margin: 0 auto 2.5rem;
+  }
+}
+
+.service-card {
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: $brand-grey;
+
+  .bi {
+    display: block;
+    font-size: 3rem;
+    color: $brand-purple;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+}
+
+#about {
+  .founder-photo {
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .about-text {
+    text-align: left;
+    line-height: 1.7;
+  }
+
+  .founder-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+
+#contact {
+  background-color: $brand-grey;
+
+  p {
+    font-size: 1.125rem;
+    max-width: 42rem;
+    margin: 0 auto 1.5rem;
+  }
+}

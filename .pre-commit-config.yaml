@@ -1,3 +1,5 @@
+# Run with prek (`prek run --all-files`). Kept as YAML rather than prek.toml
+# because Dependabot's pre-commit ecosystem only reads this file.
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
@@ -12,26 +14,12 @@ repos:
       - id: trailing-whitespace
         name: Remove unnecessary whitespace from code
         args: [--markdown-linebreak-ext=md]
-
-  - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: "v10.0.0-rc.2"
-    hooks:
-      - id: eslint
-        name: Lint JavaScript and TypeScript code
-        files: \.[jt]sx?$ # *.js, *.jsx, *.ts and *.tsx
-        types: [file]
-        additional_dependencies:
-          - eslint@9.12.0
-          - eslint-plugin-svelte@2.44.1
+      - id: check-added-large-files
+        name: Check for large files
+      - id: mixed-line-ending
+        name: Check line endings
 
   - repo: https://github.com/rhysd/actionlint
-    rev: v1.7.10
+    rev: v1.7.12
     hooks:
       - id: actionlint
-
-  - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.12.1
-    hooks:
-      - id: commitizen
-        name: Check commit messages
-        stages: [commit-msg]
